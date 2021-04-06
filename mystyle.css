@@ -94,12 +94,7 @@ animation-name: menu_text;
  
   
 
-@keyframes menu_text {
-  from {background-image: linear-gradient(to left,skyblue,blue);
-	}
-  to { background-image: linear-gradient(to left,skyblue,purple);
-	}
-}
+ 
 
 
   	 
