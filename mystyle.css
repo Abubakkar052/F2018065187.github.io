@@ -1,0 +1,105 @@
+ body
+ {
+ background-image: url(images/bg5.jpg);
+ height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+
+ }
+
+h1
+{
+	color:white;
+	text-align: left;
+     
+}
+h2
+{
+
+	color:white;
+	text-align: center;
+     
+}
+h3
+{
+color: white;
+font-size: 30px;
+text-align: center;  
+
+}
+.Home
+{
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 0%;
+  margin-top: 0%; 
+  color: black; 
+  font-weight: bold; 
+  
+}
+.homeL
+{
+  font-size: 300%;
+  text-align:center; 
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: black;   
+  font-family: "Copperplate" ,fantasy;
+     
+}
+ 
+.Menu
+{
+overflow: hidden;
+ margin-top: 5%;
+text-align: center; 
+height: 150px;
+ 
+}
+.Menu a
+{ 
+color:white;
+padding: 1% 2%;
+margin:auto;
+font-size: 100%;
+border: solid pink;
+background-image:linear-gradient(to right, purple,red) ;
+border-radius: 50px;
+text-decoration: none;
+animation-name: menu_text;
+ animation-duration: 4s;  
+}
+.Menu a:hover
+{
+	background-image: linear-gradient(to left,skyblue,blue);
+	border-radius: 16px;
+	font-size: 25px;
+} 
+.homebutton  { 
+  border: none; 
+  padding: 1% 2%; 
+  background-color: skyblue;
+  border-radius: 17px;
+  margin-top: 1%;
+  margin-left: 45%;
+   
+}
+
+.homebutton:hover {
+  background-image:linear-gradient(to right, pink,red) ;
+  color: white;  
+  font-size: 18px;
+
+}
+ 
+  
+
+@keyframes menu_text {
+  from {background-image: linear-gradient(to left,skyblue,blue);
+	}
+  to { background-image: linear-gradient(to left,skyblue,purple);
+	}
+}
+
+
+  	 
