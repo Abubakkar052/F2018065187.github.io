@@ -2,8 +2,6 @@ body
 { 
 	background-image:linear-gradient(to right,purple,pink,purple) ;
 
-
-
 }
 h2
 {
@@ -21,23 +19,33 @@ text-align: center;
 height: 150px;
  
 }
+.Menu
+{
+overflow: hidden;
+ margin-top: 5%;
+text-align: center; 
+height: 150px;
+ 
+}
 .Menu a
 { 
 color:white;
-padding: 0.5% 2%;
-
+padding: 1% 2%;
+margin:auto;
 font-size: 100%;
 border: solid pink;
 background-image:linear-gradient(to right, purple,red) ;
 border-radius: 50px;
 text-decoration: none;
- }
+ 
+}
 .Menu a:hover
 {
-	background-image: linear-gradient(to left,skyblue,blue);
-	border-radius: 16px;
-	font-size: 25px;
+  background-image: linear-gradient(to left,skyblue,blue);
+  border-radius: 16px;
+  font-size: 25px;
 } 
+
 input[type=text],textarea {
   width: 100%;  
   padding: 12px;  
