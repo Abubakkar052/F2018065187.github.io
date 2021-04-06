@@ -59,12 +59,12 @@ height: 150px;
 .Menu a
 { 
 color:white;
-padding: 1% 2%;
+padding: 1% 3%;
 margin:auto;
 font-size: 100%;
-border: solid pink;
+border: 1px solid pink;
 background-image:linear-gradient(to right, purple,red) ;
-border-radius: 50px;
+border-radius: 100px;
 text-decoration: none;
  
 }

@@ -11,31 +11,24 @@ p
 { 
 	 font-family: Arial, Helvetica, sans-serif;
 }
-.Menu
-{
-overflow: hidden;
- margin-top: 0%;
-text-align: center; 
-height: 150px;
- 
-}
-.Menu
+ .Menu
 {
 overflow: hidden;
  margin-top: 5%;
 text-align: center; 
 height: 150px;
+font-size: 25px;
+
  
 }
 .Menu a
 { 
 color:white;
 padding: 1% 2%;
-margin:auto;
-font-size: 100%;
-border: solid pink;
+margin:auto;  
+font-size: 130%;
 background-image:linear-gradient(to right, purple,red) ;
-border-radius: 50px;
+ border-radius: 30px;
 text-decoration: none;
  
 }
@@ -43,7 +36,7 @@ text-decoration: none;
 {
   background-image: linear-gradient(to left,skyblue,blue);
   border-radius: 16px;
-  font-size: 25px;
+  font-size: 40px;
 } 
 
 input[type=text],textarea {
