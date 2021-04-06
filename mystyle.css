@@ -66,8 +66,7 @@ border: solid pink;
 background-image:linear-gradient(to right, purple,red) ;
 border-radius: 50px;
 text-decoration: none;
-animation-name: menu_text;
- animation-duration: 4s;  
+ 
 }
 .Menu a:hover
 {
