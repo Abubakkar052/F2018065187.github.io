@@ -1,7 +1,7 @@
 body
 { 
-	background-image:linear-gradient(to right,purple,pink,purple) ;
-
+	
+background-image: linear-gradient(to left, pink, purple);
 }
 h2
 {
@@ -17,10 +17,15 @@ p
  .Menu
 {
 overflow: hidden;
- margin-top: 1%;
+ margin-top: -1%;
+ margin-left: -2%;
 text-align: center; 
 height: 150px;
 font-size: 25px;
+background-color: #333 ;
+  padding: 1px;
+  color: white;
+  width: 103%;
 
  
 }
