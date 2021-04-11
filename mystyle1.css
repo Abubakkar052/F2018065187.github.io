@@ -82,3 +82,31 @@ input[type=text],textarea {
   position: relative;
 
 }
+.map
+{
+  border="0";
+  background-color: #333 ;
+  padding: 20px;
+  width: 102%;
+  height: 50px; margin-left: -1%;
+  margin-bottom: -1%; 
+  font-size: 20px;
+   color: white;
+}
+.schedule
+{
+  text-align: center; font-size: 19px; margin-left: 10%;border-right: 2px dotted purple;border-top: 2px dotted purple
+}
+.social
+{
+  width:20%; margin-left: 40%;
+}
+.first
+{
+  border-radius: 6px;
+  background-color: white ;
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+  position: relative; font-size: 35px
+}
